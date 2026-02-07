@@ -9,7 +9,7 @@
 
 let
   pname = "joplin-desktop";
-  version = "3.5.12"; # the one present in unstable branch is barely fresh
+  version = "3.5.12"; # change this to whatever version you desire
 
   inherit (stdenv.hostPlatform) system;
   throwSystem = throw "Unsupported system: ${system}";

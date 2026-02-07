@@ -22,7 +22,7 @@
 ### You can install it with either `environment.systemPackages` or `home.packages`
 > With `environment.systemPackages` (nixosModules)
 
-  ```
+  ```nix
     { inputs, ... }: {
       environment.systemPackages = [
         inputs.joplin-desktop.packages.${system}.default
@@ -31,7 +31,7 @@
   ```
 
 > With `home.packages` (home-manager)
- ```
+ ```nix
     { inputs, ... }: {
       home.packages = [
         inputs.joplin-desktop.packages.${system}.default
