@@ -1,9 +1,7 @@
 # joplin-flake
-a NixOS flake for Joplin-desktop (I'm too lazy to make a PR)
 ---------
-
-#  Installation
-## Add this repo's flake to your flake inputs
+##  Installation
+### Add this repo's flake to your flake inputs
 ```
 # flake.nix
 {
@@ -21,7 +19,7 @@ a NixOS flake for Joplin-desktop (I'm too lazy to make a PR)
 ```
 
 ## Installing the package provided by the flake
-## You can install it with either `environment.systemPackages` or `home.packages`
+### You can install it with either `environment.systemPackages` or `home.packages`
 > With `environment.systemPackages` (nixosModules)
 
   ```
